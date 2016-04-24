@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="#">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>  
+      </div>
+      <div class="index-logo">
+        <img src="img/index-logo.png" width="137" height="70" alt="Sity of Sedona">
+      </div>
+    </header>
+    <main class="container">
+      <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+        <div class="search-form">Инфраструктура:</div>
+          <input type="checkbox" name="pool" id="pool-field" checked>
+          <label for="pool-field">Бассейн</label>
+          <input type="checkbox" name="parking" id="parking-field">
+          <label for="parking-field">Паркинг</label>
+          <input type="checkbox" name="wifi" id="wifi-field">
+          <label for="wifi-field">Wi-Fi</label>
+        <div class="search-form">Тип жилья:</div>
+          <input type="checkbox" name="hotel" id="hotel-field" checked>
+          <label for="hotel-field">Гостиница</label>
+          <input type="checkbox" name="motel" id="motel-field" checked>
+          <label for="motel-field">Мотель</label>
+          <input type="checkbox" name="apartments" id="apartments-field" checked>
+          <label for="apartments-field">Апартаменты</label>
+        <div class="search-form">Стоимость в сутки (р):</div>
+          <!-- Как сделать диапазон цен? В виде таблицы? -->
+        <a class="btn" href="#">Показать</a>
+      </form>
+      <div class="found">Найдено:</div>
+      <!-- Как сделать сортировку? Списком с кнопками? -->
+      <article>
+        <img src="amar-resort.jpg" width="136" height="90" alt="Amar Resort & Spa">
+        <h2>Amar Resort & Spa</h2>
+        <div class="stars">
+        <!-- Как набрать звездочки с клавиатуры? -->
+        </div>
+        <div class="housing-type">Гостиница</div>
+        <div class="housing-price">От 3500 р.</div>
+        <a class="btn" href="#">Подробнее</a>
+        <button class="btn booking">Забронировать</button>
+        <div class="rating">Рейтинг: 8,5</div>
+      </article>
+      <article>
+        <img src="desert-quail-inn.jpg" width="136" height="90" alt="Desert Quail Inn">
+        <h2>Desert Quail Inn</h2>
+        <div class="stars">
+        <!-- Как набрать звездочки с клавиатуры? -->
+        </div>
+        <div class="housing-type">Мотель</div>
+        <div class="housing-price">От 2000 р.</div>
+        <a class="btn" href="#">Подробнее</a>
+        <button class="btn booking">Забронировать</button>
+        <div class="rating">Рейтинг: 8,9</div>
+      </article>
+      <article>
+        <img src="villas-at-poco-diablo.jpg" width="136" height="90" alt="Villas At Poco Diablo">
+        <h2>Villas At Poco Diablo</h2>
+        <div class="stars">
+        <!-- Как набрать звездочки с клавиатуры? -->
+        </div>
+        <div class="housing-type">Апартаменты</div>
+        <div class="housing-price">От 3500 р.</div>
+        <a class="btn" href="#">Подробнее</a>
+        <button class="btn booking">Забронировать</button>
+        <div class="rating">Рейтинг: 9,2</div>
+      </article>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-social">
+          <p>#VisitSedona</p>
+          <a class="social-btn social-btn-twitter" href="#">Твиттер</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-youtube" href="#">Ютуб</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Website by</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
