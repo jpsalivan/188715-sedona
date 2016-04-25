@@ -19,13 +19,13 @@
               <a href="#">Карта штата</a>
             </li>
             <li>
-              <a href="#">Гостиницы</a>
+              <span>Гостиницы</span>
             </li>
           </ul>
         </nav>  
       </div>
       <div class="index-logo">
-        <img src="img/index-logo.png" width="137" height="70" alt="Sity of Sedona">
+        <a href="#"><img src="img/index-logo.png" width="137" height="70" alt="Sity of Sedona"></a>
       </div>
     </header>
     <main class="container">
@@ -45,16 +45,33 @@
           <input type="checkbox" name="apartments" id="apartments-field" checked>
           <label for="apartments-field">Апартаменты</label>
         <div class="search-form">Стоимость в сутки (р):</div>
-          <!-- Как сделать диапазон цен? В виде таблицы? -->
+        <div class="search-cost">
+          <input type="text" name="search-from">
+          <input type="text" name="search-to">
+        </div>
+        <div class="slider">
+        <!-- Тут будет слайдер -->
+        </div>
         <a class="btn" href="#">Показать</a>
       </form>
-      <div class="found">Найдено:</div>
-      <!-- Как сделать сортировку? Списком с кнопками? -->
+      <div class="found">Найдено: 3</div>
+      <div class="sort-header">Сортировка:</div>
+      <ul>
+        <li><a href="#">По цене</a></li>
+        <li><a href="#">По типу</a></li>
+        <li><a href="#">По рейтингу</a></li>
+      </ul>
+      <div class="up">
+        <a href="#"></a>
+      </div>
+      <div class="down">
+        <a href="#"></a>
+      </div>
       <article>
         <img src="amar-resort.jpg" width="136" height="90" alt="Amar Resort & Spa">
         <h2>Amar Resort & Spa</h2>
         <div class="stars">
-        <!-- Как набрать звездочки с клавиатуры? -->
+          <img src="img/stars-4.png" alt="Four stars">
         </div>
         <div class="housing-type">Гостиница</div>
         <div class="housing-price">От 3500 р.</div>
@@ -66,7 +83,7 @@
         <img src="desert-quail-inn.jpg" width="136" height="90" alt="Desert Quail Inn">
         <h2>Desert Quail Inn</h2>
         <div class="stars">
-        <!-- Как набрать звездочки с клавиатуры? -->
+          <img src="img/stars-2.png" alt="Two stars">
         </div>
         <div class="housing-type">Мотель</div>
         <div class="housing-price">От 2000 р.</div>
@@ -78,7 +95,7 @@
         <img src="villas-at-poco-diablo.jpg" width="136" height="90" alt="Villas At Poco Diablo">
         <h2>Villas At Poco Diablo</h2>
         <div class="stars">
-        <!-- Как набрать звездочки с клавиатуры? -->
+          <img src="img/stars-3.png" alt="Three stars">
         </div>
         <div class="housing-type">Апартаменты</div>
         <div class="housing-price">От 3500 р.</div>
