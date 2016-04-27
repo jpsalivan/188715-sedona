@@ -1,0 +1,17 @@
+/* Наверное, нужно будет переименовать h2, потому что нет h1 */
+
+h2 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  font-family: PT Sans;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  font-family: PT Sans;
+}
