@@ -1,5 +1,3 @@
-/* Наверное, нужно будет переименовать h2, потому что нет h1 */
-
 h2 {
   font-size: 21px;
   line-height: 26px;
@@ -15,3 +13,20 @@ h2 {
   font-weight: bold;
   font-family: PT Sans;
 }
+
+.bottom {
+  font-size: 30px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  font-family: PT Sans;  
+}
+
+body {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  font-weight: normal;
+  font-family: PT Sans; 
+}
+
